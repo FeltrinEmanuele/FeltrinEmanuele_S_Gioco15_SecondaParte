@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         var colonnaZero = 0
 
     @IBAction func btn_inizia(_ sender: Any) {
-        for _ in 1...100
+        for _ in 1...300
         {
            TrovaZero()
           if(Bool.random()==true)
@@ -42,13 +42,13 @@ class ViewController: UIViewController {
     for i in 0...3
     {
         for Q in 0...3
-            {
+        {
               if (matrice[Q][i]==0)
               {
                colonnaZero = Q
                rigaZero = i
               }
-            }
+        }
     }
 }
     
@@ -139,5 +139,16 @@ func MescolaVerticale()
             let NumeroSupp = matrice[colonnaZero][SpostaVerticale]
             matrice[colonnaZero][SpostaVerticale] = 0
             matrice[colonnaZero][rigaZero] = NumeroSupp
-}
+    }
+    
+    
+    @IBAction func SpostaTasselli(_ sender: UIButton) {
+        
+      //  var posTassello = matrice.firstIndex(of: sender)
+        
+        
+    }
+    
+    
+    
 }
