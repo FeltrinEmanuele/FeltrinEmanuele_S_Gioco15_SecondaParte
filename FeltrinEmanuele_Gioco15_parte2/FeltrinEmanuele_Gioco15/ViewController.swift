@@ -144,11 +144,44 @@ func MescolaVerticale()
     
     @IBAction func SpostaTasselli(_ sender: UIButton) {
         
-      //  var posTassello = matrice.firstIndex(of: sender)
+        var posTassello : Int!
+        posTassello = ArrayBottoni.firstIndex(of: sender)
+        var x = posTassello%4
+        var y = posTassello/4
         
-        
+        if(x<3)
+        {
+            if(matrice[y][x+1] == 0)
+            {
+                matrice[y][x+1] = matrice[y][x]
+                matrice[y][x] = 0
+            }
+        }
+        else if (x>0)
+        {
+         if(matrice[y][x-1] == 0)
+            {
+                matrice[y][x-1] = matrice[y][x]
+                matrice[y][x] = 0
+            }
+        }
+        else if (y<3)
+        {
+            if(matrice[y+1][x] == 0)
+            {
+                matrice[y+1][x] = matrice[y][x]
+                matrice[y][x] = 0
+            }
+        }
+        else if (y>0)
+        {
+            if(matrice[y-1][x] == 0)
+            {
+                matrice[y-1][x] = matrice[y][x]
+                matrice[y][x] = 0
+            }
+        }
+     CambiaBottoni()
     }
-    
-    
     
 }
