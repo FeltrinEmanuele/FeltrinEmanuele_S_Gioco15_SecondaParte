@@ -13,7 +13,10 @@ class ViewController: UIViewController {
     
     @IBOutlet var ArrayBottoni: [UIButton]!
     
-    var matrice: [[Int]] = [[1, 2, 3, 4],[5, 6, 7, 8],[9, 10, 11, 12],[13, 14, 15, 0]]
+    var matrice: [[Int]] = [[1, 2, 3, 4],
+                            [5, 6, 7, 8],
+                            [9, 10, 11, 12],
+                            [13, 14, 15, 0]]
     
         var rigaZero = 0
         var colonnaZero = 0

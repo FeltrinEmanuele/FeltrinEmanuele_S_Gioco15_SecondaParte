@@ -47,14 +47,6 @@
                                     <action selector="SpostaTasselli:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2Wg-f5-rC8"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBy-tP-omt">
-                                <rect key="frame" x="314" y="496" width="80" height="80"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="0"/>
-                                <connections>
-                                    <action selector="SpostaTasselli:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OXx-lb-eCG"/>
-                                </connections>
-                            </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ogV-S9-1Xs">
                                 <rect key="frame" x="20" y="496" width="80" height="80"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
@@ -149,6 +141,14 @@
                                 <state key="normal" title="Mescola"/>
                                 <connections>
                                     <action selector="btn_inizia:" destination="BYZ-38-t0r" eventType="touchUpInside" id="fAh-Fe-Gsf"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qBy-tP-omt">
+                                <rect key="frame" x="314" y="496" width="80" height="80"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="0"/>
+                                <connections>
+                                    <action selector="SpostaTasselli:" destination="BYZ-38-t0r" eventType="touchUpInside" id="OXx-lb-eCG"/>
                                 </connections>
                             </button>
                         </subviews>
