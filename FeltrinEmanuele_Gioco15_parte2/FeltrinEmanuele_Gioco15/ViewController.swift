@@ -157,7 +157,7 @@ func MescolaVerticale()
                 matrice[y][x] = 0
             }
         }
-        else if (x>0)
+        if (x>0)
         {
          if(matrice[y][x-1] == 0)
             {
@@ -165,7 +165,7 @@ func MescolaVerticale()
                 matrice[y][x] = 0
             }
         }
-        else if (y<3)
+        if (y<3)
         {
             if(matrice[y+1][x] == 0)
             {
@@ -173,7 +173,7 @@ func MescolaVerticale()
                 matrice[y][x] = 0
             }
         }
-        else if (y>0)
+        if (y>0)
         {
             if(matrice[y-1][x] == 0)
             {
