@@ -186,5 +186,4 @@ func MescolaVerticale()
         }
      CambiaBottoni()
     }
-    
 }
